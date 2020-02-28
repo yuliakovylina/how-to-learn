@@ -9,9 +9,6 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 
 }
-div {
-border: 1px solid red;
-}
 
 .header {
     display: flex;
@@ -24,7 +21,7 @@ border: 1px solid red;
    
 }
 .logo {
-    border: 1px solid red;
+    
 }
 .logo_place_header {
     position: absolute;
@@ -41,7 +38,6 @@ border: 1px solid red;
     font-size: 102px;
     font-weight: bold;
     margin-left: 64px;
-    border: 1px solid red;
 }
 .header__subtitle {
     line-height: 25px;
@@ -51,7 +47,7 @@ border: 1px solid red;
     position: absolute;
     bottom: 30px;
     left: 64px;
-    border: 1px solid red;
+    
 }
 .link {
     line-height: 25px;
@@ -160,7 +156,6 @@ border: 1px solid red;
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0px;
-    border: 1px solid red;
     
 }
 
@@ -170,7 +165,6 @@ border: 1px solid red;
     font-weight: normal;
     margin-top: 20px;
     margin-bottom: 0px;
-    border: 1px solid red;
     
 }
 
@@ -180,9 +174,7 @@ border: 1px solid red;
     flex-direction: column;
     position: relative;
     height: 790px;
-    border: 1pz solid red;
    
-
 }
 .feinman__title {
     margin-top: 100px;
@@ -194,7 +186,6 @@ border: 1px solid red;
     width: 648px;
     text-align: center;
     z-index: 2;
-    border: 1px solid red;
 
 }
 
@@ -205,7 +196,6 @@ border: 1px solid red;
     font-weight: normal;
     text-align: center;
     z-index: 3;
-    border: 1px solid red;
 }
 
 .feinman__link {
@@ -246,7 +236,6 @@ border: 1px solid red;
     width: 60%;
     align-self: center;
     color: white;
-    border: 1px solid red;
     
 }
 .section-subtitle_theme_dark {
@@ -257,7 +246,6 @@ border: 1px solid red;
     width: 60%;
     align-self: center;
     color: white;
-    border: 1px solid red;
 
 }
 .table_theme_dark {
@@ -283,7 +271,6 @@ border: 1px solid red;
     margin-top: 0;
     margin-bottom: 20px;
     color: white;
-    border: 1px solid red;
 
 }
 
@@ -293,7 +280,6 @@ border: 1px solid red;
     font-weight: normal;
     margin-bottom: 0;
     color: white;
-    border: 1px solid red;
 
 }
 
@@ -334,7 +320,6 @@ border: 1px solid red;
     height: 35px;
     margin-left: 0px;
     background-image: url(/images/logo_white.svg);
-    border: 1px solid red;
 
 }
 .footer__author {
@@ -343,7 +328,6 @@ border: 1px solid red;
     font-size: 18px;
     font-weight: normal;
     width: fit-content; 
-    border: 1px solid red;
     
 }
 .footer__column {
@@ -360,7 +344,6 @@ border: 1px solid red;
     font-weight: bold;
     color: white;
     margin: 0px 0px 20px;
-    border: 1px solid red;
 
 }
 .footer__column-links {
@@ -372,8 +355,6 @@ border: 1px solid red;
     margin: 20px 0px 16px;
     padding: 0px;
     list-style-type: none;
-
-    border: 1px solid red;
 
 }
 .footer__column_content_social {
