@@ -49,14 +49,14 @@
     left: 64px;
     
 }
-.link {
+.header__link {
     line-height: 25px;
     font-size: 18px;
     text-decoration: none;
     font-weight: normal;
-    position: absolute;
+    color: #2f80ED;
 }
-.main-illustration {
+.header__main-illustration {
     width: 765px;
     height: 608px;
     position: absolute;
@@ -68,7 +68,7 @@
     position: absolute;
     top: 64px;
     right: 0;
-    background-color: #2F80ED;
+    background-color: #2f80ED;
     width: 568px;
     height: 568px;
     z-index: 1;
@@ -85,11 +85,15 @@
     width: 80%;
 }
 .two-columns__brief {
+    
     width: 175px;
     text-decoration: none;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    color: #2F80ED;
+}
+h4 {
     margin-top: 0px;
 }
 .two-columns__main-text {
@@ -206,6 +210,7 @@
     font-size: 36px;
     font-weight: normal;
     text-decoration: none;
+    color: black;
 
 }
 .feinman__illustration {
@@ -226,7 +231,7 @@
     background-color: #1F1F1F;
 
 }
-.section-title_theme_dark {
+.kaufman__section-title_theme_dark {
     text-align: center;
     line-height: 69px;
     font-size: 60px;
@@ -238,7 +243,7 @@
     color: white;
     
 }
-.section-subtitle_theme_dark {
+.kaufman__section-subtitle_theme_dark {
     text-align: center;
     line-height: 34px;
     font-size: 24px;
@@ -248,7 +253,7 @@
     color: white;
 
 }
-.table_theme_dark {
+.kaufman__table_theme_dark {
   display: flex;
   justify-content: space-between;
   margin-left: auto;
@@ -258,13 +263,13 @@
   width: 1100px;
   z-index: 2;
 }
-.table__cell_theme_dark {
+.kaufman__table__cell_theme_dark {
     width: 200px;
     margin-top: 80px;
 
 }
 
-.table__heading_theme_dark {
+.kaufman__table__heading_theme_dark {
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
@@ -274,7 +279,7 @@
 
 }
 
-.table__text_theme_dark {
+.kaufman__table__text_theme_dark {
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
@@ -319,7 +324,7 @@
     width: 183px;
     height: 35px;
     margin-left: 0px;
-    background-image: url(/images/logo_white.svg);
+    background-image: url(../images/logo_white.svg);
 
 }
 .footer__author {
@@ -346,7 +351,7 @@
     margin: 0px 0px 20px;
 
 }
-.footer__column-links {
+.footer__column-link {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
@@ -361,7 +366,7 @@
 
 }
 
-.footer__social-icons {
+.footer__social-icon {
     width: 16px;
     height: 16px;
     margin-right: 10px;
