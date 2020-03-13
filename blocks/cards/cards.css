@@ -1,0 +1,20 @@
+@import url(./__item/card__item.css);
+@import url(./__image/card__image.css);
+@import url(./__title/card__title.css);
+@import url(./__description/card__description.css);
+
+
+.cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: row;
+        -ms-flex-pack: row;
+            justify-content: row;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 920px;
+}
