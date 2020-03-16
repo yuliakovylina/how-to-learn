@@ -15,4 +15,5 @@ My_first_web-developing_project PartII 14/03/2020
 _Author:_ Yulia Koylina
 _E-mail:_ juliakovylina@gmail.com
 
-Copyright 2020 Yulia Kovylina. All rights reserved.
+Copyright 2020 Yulia Kovylina. 
+All rights reserved.
